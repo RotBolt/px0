@@ -59,6 +59,8 @@ body.side-hidden #side, body.side-hidden #resizer { display: none; }
 }
 .open-side:hover { color: var(--accent-fg); border-color: var(--accent); }
 .open-side[hidden] { display: none; }
+#btn-close-side { margin-left: 0; flex: none; }
+.open-side:focus-visible, #btn-close-side:focus-visible { outline: 1px solid var(--accent); outline-offset: 2px; }
 .panel { display: none; flex-direction: column; height: 100%; overflow: hidden; }
 .panel.active { display: flex; }
 .panel-head {

@@ -57,6 +57,7 @@ export async function reindexWorkspace() {
 export function initPanels() {
   $('#btn-reindex').addEventListener('click', reindexWorkspace);
   $('#btn-open-side')?.addEventListener('click', toggleSidebar);
+  $('#btn-close-side')?.addEventListener('click', toggleSidebar);
   syncSidebar();
 
   /* sidebar resize */
